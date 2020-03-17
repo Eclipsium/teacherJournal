@@ -5,6 +5,7 @@
 
 #### Реализация:
 Интерфейс создан с помощью JS фреймворка [Vue.js](https://vuejs.org/ "Vue.js") с плагином [Vuetify.js](https://vuetifyjs.com "Vuetify.js") и собран webpack`ом
+
 **Исходный код интерфейса лежит в папке frontend**
 
 Бекенд создан с помощью [Django Rest Framework](https://www.django-rest-framework.org/ "Django Rest Framework"), реализующий API для клиент/серверного взаимодействия.
