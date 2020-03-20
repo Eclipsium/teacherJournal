@@ -51,7 +51,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
 ]
-STATIC_URL = '/static/'
+STATIC_URL = (
+    os.path.join(BASE_DIR, "static"),
+)
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
